@@ -24,8 +24,8 @@ class Contact:
     BASE_FOLDER = "./app/qrfolder/"
     def urlFormat(self,listURL,fromEmail,password,check):
         urlDatalist = []
-        API_USER = "o_2u3848mgo4"
-        API_KEY = "R_042e12e52cd24b63a27ecc9b3d34db99"
+        API_USER = "#####"
+        API_KEY = "#####"
         for url in listURL:
             value = url['url']
             value = value[value.index('2'):]
