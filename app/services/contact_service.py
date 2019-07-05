@@ -37,11 +37,11 @@ class Contact:
                  'date': value[2]+ '_' + value[1]+ '_' + value[0]})
         id = 1         
         if check == 'rec':
-            toEmail = 'arterecife@tvglobo.com.br' 
+            toEmail = 'email1' 
         elif check == 'sp':
-            toEmail = 'giovanni.oliveira@tvglobo.com.br'
+            toEmail = 'email2'
         elif check == 'rj':
-            toEmail = 'alberto.gambardella@tvglobo.com.br'
+            toEmail = 'email3'
 
         for url in urlDatalist:
             subject = 'QRCODE ' + url['title'] +  ' #g1'
